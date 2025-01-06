@@ -9,6 +9,8 @@ def bfs(sr, sc, color, image):
     queue = []
     n = len(image)
     m = len(image[0])
+
+    
     orignal = image[sr][sc]
     visited.append((sr, sc))
     queue.append((sr, sc))

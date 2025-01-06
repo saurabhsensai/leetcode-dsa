@@ -1,3 +1,5 @@
+#Depth first search 
+
 def dfss(node, adj, visited, dfs):
     visited.append(node)
     dfs.append(node)

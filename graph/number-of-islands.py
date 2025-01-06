@@ -11,7 +11,7 @@ def BFS(row, col, visited, grid):
     queue.append((row, col))
     n = len(grid) #gives us row numbers
     m = len(grid[0])
-    
+    #code
     while(len(queue)):
         row = queue[0][0]
         col = queue[0][1]

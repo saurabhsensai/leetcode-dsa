@@ -4,6 +4,7 @@ def detect(src, adj, visited):
     visited.append(src)
     q = []
     q.append((src, -1))
+
     
     while q:
         node = q[0][0]
